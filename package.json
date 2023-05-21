@@ -1,4 +1,5 @@
 {
+  "homepage": "http://devkyle4.github.io/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -49,5 +50,8 @@
   "description": "<h2 align=\"center\">   Portfolio Website - v2.0<br/>   <a href=\"https://soumyajit.vercel.app/\" target=\"_blank\">soumyajit.tech</a> </h2> <div align=\"center\">   <img alt=\"Demo\" src=\"./Images/readme-img1.png\" /> </div>",
   "main": "index.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
