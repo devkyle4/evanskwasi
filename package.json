@@ -1,5 +1,5 @@
 {
-  "homepage": "http://devkyle4.github.io/",
+  "homepage":"http://devkyle4.github.io/evanskwasi",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -25,6 +25,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -50,8 +52,5 @@
   "description": "<h2 align=\"center\">   Portfolio Website - v2.0<br/>   <a href=\"https://soumyajit.vercel.app/\" target=\"_blank\">soumyajit.tech</a> </h2> <div align=\"center\">   <img alt=\"Demo\" src=\"./Images/readme-img1.png\" /> </div>",
   "main": "index.js",
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
-  }
+  "license": "ISC"
 }
