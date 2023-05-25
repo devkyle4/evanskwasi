@@ -4,11 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import weeds from "../../Assets/Projects/weeds.png";
 import sign from "../../Assets/Projects/sign_language.png";
-import chatui from "../../Assets/Projects/chatify.png";
+import chatui from "../../Assets/Projects/chatui.png";
 import dataCareer from "../../Assets/Projects/Data_Survey.png";
-import imageGen from '../../Assets/Projects/image_generator.png';
-import kernel from "../../Assets/Projects/image_generator.png";
-
+import imageGen from "../../Assets/Projects/image_generator.png";
+import kernel from "../../Assets/Projects/kernel.png";
 
 function Projects() {
   return (
@@ -27,7 +26,7 @@ function Projects() {
               imgPath={chatui}
               isBlog={false}
               title="Chat App UI"
-              description="Chat UI for creating chatapps to share resources and hangout with friends built with react.js and Material-UI."
+              description="A flutter Chat UI for creating chatapps to share resources and hangout with friends built with react.js and Material-UI."
               ghLink="https://github.com/devkyle4/ChatApp_UI"
               demoLink="https://github.com/devkyle4/ChatApp_UI"
             />
