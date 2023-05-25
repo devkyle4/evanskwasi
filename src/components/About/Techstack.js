@@ -16,6 +16,7 @@ import {
   SiKeras,
   SiMicrosoftexcel,
   SiArduino,
+  SiMysql,
 } from "react-icons/si";
 
 function Techstack() {
@@ -44,6 +45,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMicrosoftexcel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
